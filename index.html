@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- DOGAN CELIK Student ID: 000908936 -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="animation.css">
+  <title>Image Animation</title>
+  <script src="animation.js"></script>
+</head>
+<body>
+  <header>
+    <h1>WHAT ARE YOUR FAVORITE THREE FRUITS?</h1>
+  </header>
+
+  <main>
+        <!-- IMAGE SECTION -->
+
+    <div class="image-grid">
+      <img id="image1" src="" alt="Image 1">
+      <img id="image2" src="" alt="Image 2">
+      <img id="image3" src="" alt="Image 3">
+    </div>
+
+    <!-- CONTROL SECTION -->
+<div class="controls">
+    <div class="center">
+      <label for="refreshTime">Automatic Refresh Time:</label>
+      <input type="number" id="refreshTime" min="500" max="10000" step="100" value="2000">
+    </div>
+    <div class="center">
+      <button id="randomizeBtn">Randomize</button>
+    </div>
+  </div>
+  
+
+    <div id="timer">Timer: <span id="countdown">10</span></div>
+
+    <div id="counter">Image Changes: <span id="changeCount">0</span></div>
+  </main>
+
+      <!-- FOOTER SECTION -->
+
+  <footer>
+    <p>© 2023 Dogan CELIK | 000908936</p>
+  </footer>
+</body>
+</html>
